@@ -1,0 +1,19 @@
+data:
+  benchmark: ogbench
+  path: './ogbench_datasets'
+training:
+  seed: rand
+  device_number: 0
+  batch_size: 8192
+  num_iterations: 200000
+  clip_grads: True
+  max_norm: 1.0
+  lr: 0.0008
+  eval_episodes_per_task: 20
+  eval_at_iters: [0, 160000, 180000, 200000]
+logging:
+  project_name: 'ogbench_gs-her_'
+  root_folder: './logs/'
+  log_to_wandb: False
+  save_chkpt: True
+  save_chkpt_every_niters: 20000
