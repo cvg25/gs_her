@@ -1,6 +1,6 @@
 # (GS-HER) Goal Sets, Not Goal States: Queryable Robot Goals through Goal-Set Hindsight Relabeling
 
-[[Paper]](http://arxiv.org/abs/2502.18056) by [Carlos Vélez García](https://github.com/cvg25), Miguel Cazorla and Jorge Pomares.
+[[Paper]](https://arxiv.org/pdf/2606.09476) by [Carlos Vélez García](https://github.com/cvg25), Miguel Cazorla and Jorge Pomares.
 
 Official implementation of GS-HER (Goal-Set Hindsight Experience Replay).
 
@@ -138,7 +138,8 @@ If you find this work useful, please cite (Arxiv preprint to be released soon):
 @article{velezgarcia2026gsher,
   title   = {Goal Sets, Not Goal States: Queryable Robot Goals through Goal-Set Hindsight Relabeling},
   author  = {Carlos Vélez-García and Miguel Cazorla and Jorge Pomares},
-  year    = {2026}
+  year    = {2026},
+  Eprint  = {arXiv:2606.09476}
 }
 ```
 
